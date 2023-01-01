@@ -1,0 +1,103 @@
+:root {
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --secondary-black-color: #212121;
+  --grey-color: #757575;
+  --blue-color: #2196f3;
+  --background-color: #2f303a;
+}
+body {
+  font-family: "Roboto" sans-serif;
+  color: var(--grey-color);
+}
+
+a:hover,
+a:focus {
+  color: var(--blue-color);
+}
+button:hover,
+button:focus {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16;
+  line-height: 1.87;
+}
+
+.logo {
+  color: var(--black-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26;
+  line-height: 1.38;
+}
+.half-logo {
+  color: var(--blue-color);
+  font-weight: 700;
+  font-size: 26;
+  line-height: 1.17;
+}
+.navigation {
+  color: var(--secondary-black-color);
+  font-size: 14;
+  line-height: 1.17;
+  font-weight: 500;
+}
+.contact {
+  color: var(--grey-color);
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.17;
+}
+h1 {
+  color: var(--white-color);
+  background-color: var(--background-color);
+  font-weight: 900;
+  font-size: 44;
+  line-height: 1.36;
+  text-align: center;
+}
+.order-btn {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  font-weight: 700;
+  text-align: center;
+}
+
+h5 {
+  color: var(--secondary-black-color);
+  font-weight: 700;
+  font-size: 14;
+  line-height: 1.17;
+}
+p {
+  font-size: 14;
+  line-height: 1.71;
+}
+h2 {
+  color: var(--secondary-black-color);
+  font-weight: 700;
+  font-size: 36;
+  line-height: 1.17;
+  text-align: center;
+}
+figcaption {
+  color: var(--secondary-black-color);
+  font-weight: 500;
+  font-size: 16;
+  line-height: 1.17;
+}
+.team-card {
+  font-size: 16;
+  line-height: 1.17;
+}
+.image-description {
+  color: var(--secondary-black-color);
+  font-weight: 700;
+  font-size: 18;
+  line-height: 2;
+}
+.services {
+  font-size: 16;
+  line-height: 1.87;
+}
